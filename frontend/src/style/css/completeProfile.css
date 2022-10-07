@@ -1,0 +1,43 @@
+.custom-file-upload {
+  border: 1px dotted #ccc;
+  display: block;
+  padding: 6px 12px;
+  cursor: pointer;
+  width: 22%;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #e6dbdb2e;
+  height: 70px;
+  position: relative;
+}
+.custom-file-image-uploaded {
+  border: 1px dotted #ccc;
+  display: contents;
+  padding: 6px 12px;
+  cursor: pointer;
+  width: 22%;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #e6dbdb2e;
+  height: 70px;
+  position: relative;
+}
+.custom-file-upload::after {
+  color: black;
+  content: "+ image ";
+  white-space: nowrap;
+  position: absolute;
+  top: 23px;
+  right: 43px;
+}
+
+.secondForm-container {
+  min-height: 180px;
+  margin-top: 16px;
+  padding-top: 40px;
+  text-align: center;
+  background-color: #e1dddd0d;
+  border: 1px dashed #e9e9e9;
+  border-radius: 2px;
+  margin: auto 40px auto 40px;
+}

@@ -1,0 +1,45 @@
+.tradeBox input#basic_coin.ant-input {
+  height: 30px;
+  width: 100px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4);
+  color: black !important;
+}
+.tradeBox input.ant-input.inputButton {
+  height: 30px;
+  width: 100px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4);
+  color: black !important;
+  padding: 0px;
+}
+.tradeBox input#basic_price.ant-input {
+  height: 30px;
+  width: 100px;
+  color: black !important;
+}
+.tradeBox input#basic_coinCount.ant-input {
+  height: 30px;
+  width: 100px;
+}
+.tradeBox input#basic_price.ant-input {
+  height: 30px;
+  width: 100px;
+}
+
+.tradeBox .ant-form {
+  margin: 0.7rem 0.5rem 0 -4rem !important;
+}
+.tradeBox .ant-row.ant-form-item {
+  margin-bottom: 10px;
+}
+.tradeBox .ant-input.ant-input-status-success {
+  height: 30px;
+  width: 100px;
+  /* box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4); */
+  color: black !important;
+}
+.tradeAction {
+  display: flex;
+}
+.tradeAction .action {
+  border-bottom: 1px dashed grey !important;
+}

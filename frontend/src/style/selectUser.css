@@ -1,0 +1,15 @@
+.normal_user{
+    background-image: url("images/banner/pic02.jpg") !important;
+    height: 50vh;
+    width: 100%;
+}
+.trader_user{
+    background-image: url("images/banner/pic06.jpg") !important;
+    height: 50vh;
+    width: 100%;
+}
+@media screen and (min-width:768px) {
+    .normal_user,.trader_user{
+        height: 100vh;
+    }
+}

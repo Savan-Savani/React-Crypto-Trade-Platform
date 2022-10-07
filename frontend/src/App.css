@@ -1,0 +1,41 @@
+.google {
+  width: 50% !important;
+  justify-content: center;
+  align-items: center;
+}
+
+#rcDialogTitle1 {
+  text-align: center;
+}
+
+.ant-form {
+  margin: 0 2.5rem 0 -3rem !important;
+}
+.google-signin-divider {
+  margin: 1.5rem 0;
+  position: relative;
+}
+.google-signin-divider .divider-or {
+  position: absolute;
+  top: -0.8rem;
+  left: calc(50% - 20px);
+  background-color: #fff;
+  padding: 0 0.5rem;
+  font-size: 0.875rem;
+  font-family: "Poppins";
+  color: #c4c3c4;
+}
+.google-signin-divider .line {
+  width: 80%;
+  border-bottom: 1px solid #eaeaea;
+  display: block;
+  margin: 0 auto;
+}
+
+.other-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1.5rem;
+  flex-direction: column;
+}
